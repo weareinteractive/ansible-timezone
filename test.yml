@@ -1,0 +1,11 @@
+---
+
+- hosts: all
+  handlers:
+    - include: 'handlers/main.yml'
+  vars_files:
+    - 'defaults/main.yml'
+  tasks:
+    - include: 'tasks/main.yml'
+      vars:
+        timezon: 'Europe/Berlin'
