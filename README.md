@@ -1,7 +1,7 @@
 # Ansible Timezone Role
 
-[![Build Status](https://travis-ci.org/weareinteractive/ansible-role-timezone.png?branch=master)](https://travis-ci.org/weareinteractive/ansible-role-timezone)
-[![Stories in Ready](https://badge.waffle.io/weareinteractive/ansible-role-timezone.svg?label=ready&title=Ready)](http://waffle.io/weareinteractive/ansible-role-timezone)
+[![Build Status](https://travis-ci.org/weareinteractive/ansible-timezone.png?branch=master)](https://travis-ci.org/weareinteractive/ansible-timezone)
+[![Stories in Ready](https://badge.waffle.io/weareinteractive/ansible-timezone.svg?label=ready&title=Ready)](http://waffle.io/weareinteractive/ansible-timezone)
 
 > `timezone` is an [ansible](http://www.ansible.com) role which: 
 > 
@@ -24,7 +24,7 @@ $ arm install franklinkim.timezone
 Using `git`:
 
 ```
-$ git clone https://github.com/weareinteractive/ansible-role-timezone.git
+$ git clone https://github.com/weareinteractive/ansible-timezone.git
 ```
 
 ## Variables
@@ -46,8 +46,8 @@ timezone: 'Europe/Berlin'
 ## Testing
 
 ```
-$ git clone https://github.com/weareinteractive/ansible-role-timezone.git
-$ cd ansible-role-timezone
+$ git clone https://github.com/weareinteractive/ansible-timezone.git
+$ cd ansible-timezone
 $ vagrant up
 ```
 
