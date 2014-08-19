@@ -29,9 +29,18 @@ $ git clone https://github.com/weareinteractive/ansible-timezone.git
 
 ## Variables
 
+Here is a list of all the default variables for this role, which are also available in `defaults/main.yml`.
+
 ```
+# set timezone
 timezone: 'Europe/Berlin'
 ```
+
+## Handlers
+
+These are the handlers that are defined in `handlers/main.yml`.
+
+* `reconfigure tzdata` 
 
 ## Example playbook
 
