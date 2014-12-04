@@ -1,7 +1,8 @@
 ---
 
 - hosts: all
+  sudo: yes
   roles:
     - franklinkim.timezone
   vars:
-    timezon: 'Europe/Berlin'
+    timezone: 'Europe/London'
