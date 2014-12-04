@@ -3,4 +3,4 @@
 # http://www.ansibleworks.com/docs/playbooks.html#handlers-running-operations-on-change
 
 - name: reconfigure tzdata
-  shell: dpkg-reconfigure -f noninteractive tzdata
+  command: dpkg-reconfigure -f noninteractive tzdata

@@ -46,10 +46,11 @@ These are the handlers that are defined in `handlers/main.yml`.
 
 ```
 - host: all
+  sudo: yes
   roles: 
     - franklinkim.timezone
   vars:
-    timezone: 'Europe/Berlin'
+    timezone: 'Europe/London'
 ```
 
 ## Testing
